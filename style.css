@@ -1,21 +1,52 @@
 body {
-    font-family: sans-serif;
-    line-height: 1.5;
-  
-    background-color: #f9f9f9;
-    color: #333333;
-  
-    width: 980px;
-    margin: 0 auto;
-  }
-  
-  h1 {
-    text-align: center;
-    font-size: 36px;
-    margin-bottom: 0;
-  }
-  
-  main > h2 {
-    text-align: center;
-    font-size: 25px;
-  }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 100vh;
+  background-color: #f0f0f0;
+  margin: 0;
+}
+
+div {
+  width: 300px;
+  height: 400px;
+  padding: 16px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  text-align: center;
+  margin: 16px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* BEGIN (write your solution here) */
+img {
+ 
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* END */
+
+h2 {
+  margin: 8px 0;
+}
+
+h3 {
+  margin: 6px 0;
+}
+
+p {
+  color: #666;
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
